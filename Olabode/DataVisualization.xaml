@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Olabode"
+             xmlns:local1="clr-namespace:Olabode.ViewModel"
+             xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms"
+             x:Class="Olabode.DataVisualization">
+
+    <ContentPage.BindingContext>
+        <local1:ViewModel/>
+    </ContentPage.BindingContext>
+
+    <chart:SfChart>
+
+        <chart:SfChart.Title>
+            <chart:ChartTitle Text="Labour Force Population Quarter 2 2018" FontAttributes="Bold" FontSize="25"/>
+        </chart:SfChart.Title>
+
+        <chart:SfChart.Legend>
+            <chart:ChartLegend/>
+        </chart:SfChart.Legend>
+
+        <chart:SfChart.PrimaryAxis>
+            <chart:CategoryAxis AutoScrollingDelta = "3" AutoScrollingMode = "Start">
+                <chart:CategoryAxis.Title>
+                    <chart:ChartAxisTitle Text="State" FontAttributes="Bold" FontSize="25" TextColor="Aqua"/>
+                </chart:CategoryAxis.Title>
+            </chart:CategoryAxis>
+        </chart:SfChart.PrimaryAxis>
+
+        <chart:SfChart.SecondaryAxis>
+            <chart:NumericalAxis Minimum="40000" Maximum="7000000">
+                <chart:NumericalAxis.LabelStyle>
+                    <chart:ChartAxisLabelStyle LabelFormat="####"/>
+                </chart:NumericalAxis.LabelStyle>
+            </chart:NumericalAxis>
+        </chart:SfChart.SecondaryAxis>
+
+        <chart:ColumnSeries ItemsSource="{Binding PopulationData}"
+                            XBindingPath="State"
+                            YBindingPath="Labour_Force_Population"
+                            Label="Total_Employed"
+                            Color="Green"/>
+        <chart:ColumnSeries ItemsSource="{Binding PopulationData}"
+                            XBindingPath="State"
+                            YBindingPath="Employment"
+                            Label="Employed Per State"
+                            Color="Blue"/>
+
+        <chart:SfChart.ChartBehaviors>
+
+            <chart:ChartZoomPanBehavior EnableSelectionZooming="True"/>
+
+        </chart:SfChart.ChartBehaviors>
+
+
+
+
+
+    </chart:SfChart>
+
+</ContentPage>

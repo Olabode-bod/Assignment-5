@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Olabode.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Labour Force per state Q2" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="About Data" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="The Labour Force participation rate is a measure of the proportion of a country's working-age
+population that engages actively in the labour market, either by working or looking for work; it
+provides an indication of the size of the supply of labour available to engage in the production of
+goods and services, relative to the population at working age. The breakdown of the labour force
+(formerly known as economically active population) by sex and age group gives a profile of the
+distribution of the labour force within a country" FontSize="16" Padding="30,0,30,0"/>
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Learn more at "/>
+                        <Span Text="https://www.nigerianstat.gov.ng/pdfuploads/Q2_2020_Unemployment_Report.pdf" FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <Button Text="About Software" Clicked="Button_Clicked" BackgroundColor="Coral"  />
+        <Button Text="Data" Clicked="Button_Clicked_1" BackgroundColor="Coral" WidthRequest="50" />
+    </StackLayout>
+
+</ContentPage>

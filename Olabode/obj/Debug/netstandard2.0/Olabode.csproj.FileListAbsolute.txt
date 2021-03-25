@@ -1,0 +1,16 @@
+C:\Users\olabo\source\repos\Olabode\Olabode\Olabode\obj\Debug\netstandard2.0\Olabode.csprojAssemblyReference.cache
+C:\Users\olabo\source\repos\Olabode\Olabode\Olabode\bin\Debug\netstandard2.0\Olabode.deps.json
+C:\Users\olabo\source\repos\Olabode\Olabode\Olabode\bin\Debug\netstandard2.0\Olabode.dll
+C:\Users\olabo\source\repos\Olabode\Olabode\Olabode\bin\Debug\netstandard2.0\ref\Olabode.dll
+C:\Users\olabo\source\repos\Olabode\Olabode\Olabode\bin\Debug\netstandard2.0\Olabode.pdb
+C:\Users\olabo\source\repos\Olabode\Olabode\Olabode\obj\Debug\netstandard2.0\AboutPage.xaml.g.cs
+C:\Users\olabo\source\repos\Olabode\Olabode\Olabode\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\olabo\source\repos\Olabode\Olabode\Olabode\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\olabo\source\repos\Olabode\Olabode\Olabode\obj\Debug\netstandard2.0\Olabode.AssemblyInfoInputs.cache
+C:\Users\olabo\source\repos\Olabode\Olabode\Olabode\obj\Debug\netstandard2.0\Olabode.AssemblyInfo.cs
+C:\Users\olabo\source\repos\Olabode\Olabode\Olabode\obj\Debug\netstandard2.0\Olabode.csproj.CoreCompileInputs.cache
+C:\Users\olabo\source\repos\Olabode\Olabode\Olabode\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\olabo\source\repos\Olabode\Olabode\Olabode\obj\Debug\netstandard2.0\Olabode.dll
+C:\Users\olabo\source\repos\Olabode\Olabode\Olabode\obj\Debug\netstandard2.0\ref\Olabode.dll
+C:\Users\olabo\source\repos\Olabode\Olabode\Olabode\obj\Debug\netstandard2.0\Olabode.pdb
+C:\Users\olabo\source\repos\Olabode\Olabode\Olabode\obj\Debug\netstandard2.0\DataVisualization.xaml.g.cs
